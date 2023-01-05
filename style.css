@@ -1,0 +1,676 @@
+body{
+    background: url(imagenes/fondo1.jpg);
+    
+}
+.contenedor{
+    margin:auto;
+    width: 960px;
+    max-width: 960px;
+    height: 650px;
+    padding: 5px;
+   
+    
+    
+}
+
+.logotipo{
+    width: 100%;
+    float: left;
+    
+    
+}
+
+.logoImg{
+    float:inherit;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    
+}
+
+
+.principalcontainer{
+    
+    float: left;
+    width: 70%;
+    height: 66%;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: -5px -5px 14px -4px #000000;
+    
+
+}
+.principalcontainer::before{
+    position: absolute;
+    
+    opacity: 0.7;
+}
+#textarea-principal::placeholder {
+    
+    color: white;
+    font-size: 1.2em;
+    font-style: italic;
+    
+  }
+
+
+.textarea{
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    
+    
+}
+
+#joven{
+    margin-top: 15%;
+    margin-left: 4%;
+    width: 95%;
+    height: auto;
+}
+
+#texto1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+#texto2{
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    color: #495057;
+    width:90%;
+    height: auto;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    resize: none;
+}
+
+
+
+#copiar{
+    margin-left: 11%;
+    margin-top: 160%;
+    padding: 24px;
+    width: 80%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 5px;
+    color: #0A3871;
+    text-align: center;
+    cursor:pointer;
+    transition: 1s all;
+    
+}
+
+#copiar:hover{
+    background: #D8DFE8;
+    transform: scale(1.20);
+}
+
+
+
+.advertencia{
+    margin: 2%;
+    font-size:14px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.advertencia img{
+    
+    width: 20px;
+    height: 20px;
+}
+
+.container-result{
+    float: right;
+    border-radius: 24px;
+    width: 30%;
+    height: 81%;
+    background: white;
+}
+
+.container-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    
+}
+
+#btn-encriptar{
+    padding: 24px;
+    width: 35%;
+    height: 10%;
+    border-radius: 24px;
+    border: none;
+    margin-left: 15%;
+    background: #0A3871;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 5px;
+    color: white;
+    text-align: center;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+#btn-encriptar:hover{
+    background: #0A3871;
+    transform: scale(1.20);
+}
+
+#btn-desencriptar{
+    padding: 24px;
+    width: 35%;
+    height: 10%;
+    border-radius: 24px;
+    border: none;
+    margin-left: 10%;
+    background: grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 5px;
+    color: #495057;
+    text-align: center;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+#btn-desencriptar:hover{
+    background: grey;
+    transform: scale(1.20);
+}
+
+.footer{
+    float: bottom;
+    
+    
+    
+}
+footer{
+    text-align: center;
+    background: url(imagenes/footer.gif);
+    padding-bottom: 20px; 
+    width: 100%;
+    height: 50%;
+    
+    
+    
+    
+}
+.copyright{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 770px) {
+
+    .contenedor{
+        margin:auto;
+        width: 100%;
+        max-width: 960px;
+        height: 650px;
+        padding: 5px;
+       
+        
+        
+    }
+
+    .logotipo{
+        width: 100%;
+        float: left;
+        
+        
+    }
+    
+    .logoImg{
+        float:inherit;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 40px;
+        height: 65px;
+        margin-bottom: 3%;
+        
+    }
+    
+    .principalcontainer{
+    
+        float: left;
+        margin-top: 5%;
+        width: 90%;
+        height: 66%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 24px;
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: -5px -5px 14px -4px #000000;
+        
+    
+    }
+
+    .textarea{
+        position: relative;
+        float: left;
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 80%;
+        height: 80%;
+        color: white;
+        font-size: 50px;
+        border: none;
+        outline: none;
+       
+        background: transparent;
+    }
+    .container-result{
+        float: right;
+        border-radius: 24px;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 81%;
+        background: white;
+    }
+    #joven{
+        margin-top: 10%;
+        margin-left: 40%;
+        width: 20%;
+        height: auto;
+    }
+    
+    #texto1{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    
+    #texto2{
+        float: left;
+        margin-left: 5%;
+        margin-top: 3%;
+        color: #495057;
+        width:90%;
+        height: auto;
+        border: none;
+        outline: none;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        resize: none;
+    }
+    #copiar{
+        margin-left: 25%;
+        margin-top: 45%;
+        padding: 24px;
+        width: 50%;
+        height: 20%;
+        background: #D8DFE8;
+        border-radius: 24px;
+        display: none;
+        border: none;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 5px;
+        color: #0A3871;
+        text-align: center;
+        cursor:pointer;
+        transition: 1s all;
+        
+    }
+    #copiar:hover{
+        background: #D8DFE8;
+        transform: scale(1.20);
+    }
+    
+
+    .advertencia{
+        margin: 2%;
+        font-size:30px;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .advertencia img{
+        
+        width: 50px;
+        height: 50px;
+    }
+
+    .container-button{
+        float: left;
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+        border-radius: 24px;
+        
+        
+    }
+
+    #btn-encriptar{
+        padding: 50px;
+        width: 50%;
+        height: 10%;
+       
+        
+        border-radius: 24px;
+        border: none;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+        background: #0A3871;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 5px;
+        color: white;
+        text-align: center;
+        cursor:pointer;
+        transition: 1s all;
+    }
+    
+    #btn-encriptar:hover{
+        background: #0A3871;
+        transform: scale(1.20);
+    }
+    
+    #btn-desencriptar{
+        padding: 50px;
+        width: 50%;
+        height: 10%;
+        
+        border-radius: 24px;
+        border: none;
+        margin-left: 25%;
+        background: grey;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 5px;
+        color: #495057;
+        text-align: center;
+        cursor:pointer;
+        transition: 1s all;
+    }
+    
+    #btn-desencriptar:hover{
+        background: grey;
+        transform: scale(1.20);
+    }
+
+    .footer{
+        float: bottom;
+        bottom: 0;
+    }
+    
+    footer{
+        
+        float: left;
+        width: 200%;
+        padding: 10% 29%;
+        margin-top: 50%;
+        bottom: 0;
+
+        
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .contenedor{
+        margin:auto;
+        width: 300%;
+        /*max-width: 960px;*/
+        height: auto;
+        padding: 5px;
+       
+        
+        
+    }
+    .logotipo{
+        width: 100%;
+        float: left;
+        
+        
+    }
+    
+    .logoImg{
+        float:inherit;
+        margin-top: 3%;
+        margin-left: 5%;
+        width: 40px;
+        height: 65px;
+        margin-bottom: 3%;
+        
+    }
+    
+    .principalcontainer{
+    
+        float: left;
+        width: 90%;
+        height: 66%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 24px;
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: -5px -5px 14px -4px #000000;
+        
+    
+    }
+
+    .textarea{
+        position: relative;
+        float: left;
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 80%;
+        height: 80%;
+        color: white;
+        font-size: 50px;
+        border: none;
+        outline: none;
+       
+        background: transparent;
+    }
+    .container-result{
+        float: right;
+        border-radius: 24px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 81%;
+        background: white;
+    }
+    #joven{
+        margin-top: 10%;
+        margin-left: 40%;
+        width: 20%;
+        height: auto;
+    }
+    
+    #texto1{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    
+    #texto2{
+        float: left;
+        margin-left: 5%;
+        margin-top: 3%;
+        color: #495057;
+        width:90%;
+        height: auto;
+        border: none;
+        outline: none;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        resize: none;
+    }
+    #copiar{
+        margin-left: 25%;
+        margin-top: 45%;
+        padding: 24px;
+        width: 50%;
+        height: 20%;
+        background: #D8DFE8;
+        border-radius: 24px;
+        display: none;
+        border: none;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 5px;
+        color: #0A3871;
+        text-align: center;
+        cursor:pointer;
+        transition: 1s all;
+        
+    }
+    #copiar:hover{
+        background: #D8DFE8;
+        transform: scale(1.20);
+    }
+    
+
+    .advertencia{
+        margin: 2%;
+        font-size:30px;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .advertencia img{
+        
+        width: 50px;
+        height: 50px;
+    }
+
+    .container-button{
+        float: left;
+        width: 100%;
+        height: auto;
+        border-radius: 24px;
+        
+        
+    }
+
+    #btn-encriptar{
+        padding: 50px;
+        width: 50%;
+        height: 10%;
+       
+        
+        border-radius: 24px;
+        border: none;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+        background: #0A3871;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 5px;
+        color: white;
+        text-align: center;
+        cursor:pointer;
+        transition: 1s all;
+    }
+    
+    #btn-encriptar:hover{
+        background: #0A3871;
+        transform: scale(1.20);
+    }
+    
+    #btn-desencriptar{
+        padding: 50px;
+        width: 50%;
+        height: 10%;
+        
+        border-radius: 24px;
+        border: none;
+        margin-left: 25%;
+        background: grey;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 5px;
+        color: #495057;
+        text-align: center;
+        cursor:pointer;
+        transition: 1s all;
+    }
+    
+    #btn-desencriptar:hover{
+        background: grey;
+        transform: scale(1.20);
+    }
+    
+    .footer{
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+        display:inline-block;
+        
+        
+        
+    }
+    
+
+
+}
+
